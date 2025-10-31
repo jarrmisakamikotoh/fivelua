@@ -44,7 +44,7 @@ local Remotes = {
     -- Train System  
     TrainSpeed = RS.TrainSystem.Remote.TrainSpeedHasChanged,
     CombatPower = RS.TrainSystem.Remote.PlayerCombatPowerHasChanged,
-    TrainValue = RS.TrainSystem.Remote.PlayerTrainValueHasChanged,
+    TrainValueBindable = RS.TrainSystem.Bindable.PlayerTrainValueHasChanged,
     
     -- Items
     UseItem = RS.PlayerItemBackpack.Remote.TryOperatingItemByPlayer,
